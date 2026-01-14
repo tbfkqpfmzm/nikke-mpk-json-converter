@@ -305,7 +305,7 @@ namespace NikkeMpkConverter
                     }
                     if (!Enum.IsDefined(typeof(CharacterSkillType), (int)item.SkillType))
                     {
-                        unknownEnums.Add($"New SkillType enum value: {(int)item.SkillType}");
+                        unknownEnums.Add($"New CharacterSkillType enum value: {(int)item.SkillType}");
                         item.SkillType = CharacterSkillType.Unknown;
                     }
                     if (!Enum.IsDefined(typeof(DurationType), (int)item.DurationType))

@@ -35,6 +35,8 @@ namespace NikkeMpkConverter.model
         InstantAllParts = 26,
         TargetHitCountGetBuff = 27,
         HealCharge = 28,
+        TargetingSequentialAttack = 29,
+        InstantAllProjectile = 30
     }
 
     public enum DurationType
@@ -297,7 +299,10 @@ namespace NikkeMpkConverter.model
         StatDefNoneBreakCol = 207,
         ChangeHealChargeValue = 208,
         FixStatChargeTime = 209,
-        GrayScale = 210
+        GrayScale = 210,
+        ChangeMaxTargetingCount = 211,
+        InstantSequentialAttackDamageRatio = 212,
+        BarrierImmuneDamage = 213
     }
 
     public enum StandardType
@@ -486,7 +491,8 @@ namespace NikkeMpkConverter.model
         IsCheckNotTarget = 62,
         IsCheckFunctionOverlap = 63,
         IsFirstBurstMember = 64,
-        IsNotFirstBurstMember = 65
+        IsNotFirstBurstMember = 65,
+        IsCharging = 66
     }
 
     public enum FunctionStatus
